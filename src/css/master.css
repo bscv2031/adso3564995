@@ -3,13 +3,20 @@
 
 /* Styles */
 body {
-    background: linear-gradient(to top, #2a4ec7fd, #a5a8c4);
+    background: linear-gradient(to top, #2a4ec7fd, #7278ac);
     color: #fff9;
     font-family: Poppins;
     min-height: 100dvh;
-
+    &.emmet{
+        background: linear-gradient(to bottom, rgb(11, 63, 11), rgb(37, 224, 37));
+    }
+nav.goback{
+    align-items: center;
+    border-radius: 50%;
+    
+}
     main {
-        background: linear-gradient(to bottom, rgb(15, 23, 255), #090202a8);
+        background: linear-gradient(to bottom, rgb(20, 102, 33), #090202a8);
         border-radius: 0.6rem;
         display: flex;
         flex-direction: column;
