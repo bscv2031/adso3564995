@@ -13,6 +13,19 @@ body {
 nav.goback{
     align-items: center;
     border-radius: 50%;
+    border: 2px solid #fff;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        left: 6px;
+        opacity: .6;
+        position: fixed;
+        top: 6px;
+        transition: all 0.4s ease-in;
+        width: 40px;
+        &:hover {
+            opacity: .9;
+            transform: scale(1.1);}
     
 }
     main {
