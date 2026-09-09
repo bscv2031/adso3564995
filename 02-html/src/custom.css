@@ -1,0 +1,11 @@
+div.box {
+    background: linear-gradient(to bottom, rgb(147, 22, 22), rgb(0, 0, 0));
+    background-clip: text;
+    color: transparent;
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem auto;
+    width: 340px;
+    
+}
