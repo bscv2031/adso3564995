@@ -8,6 +8,48 @@ body {
     font-family: Poppins;
     min-height: 100dvh;
     
+    &.css{
+        background: linear-gradient(to top, #663399, #0c0715);
+        background-attachment: fixed;
+        color: #caa0f5aa;
+        main {
+        background: linear-gradient(to bottom, rgb(141, 42, 227), #090202a8);
+
+           
+            header.mmenu {
+                h1 {
+                    
+                    border-bottom: 2px solid #caa0f5aa;
+                }
+                img {
+                    border: 4px solid #caa0f5aa;
+                  }
+                h3 {
+                    
+                    font-weight: 300;
+                }
+                menu.mmenu {
+                    
+                    
+                    a:is(:link, :visited){
+                        &:hover {
+                        background-color: #663399;
+                        aside{
+                            h4{
+                                color: #fff9;
+                            }
+                        }
+                    }
+                        span{
+                            background-color: red !important;
+                        }
+                    }
+                }
+            } 
+    }
+
+}
+
     &.html{
         background: linear-gradient(to top, #680a0afd, #0d0101);
         background-attachment: fixed;
@@ -263,9 +305,9 @@ nav.goback{
                     small {
                         font-size: 0.6rem;
                         color: #fff4;
+                        }
                     }
                 } 
             }
         }
     }
-}
