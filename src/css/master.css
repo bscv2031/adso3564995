@@ -28,10 +28,14 @@ body {
                     
                     font-weight: 300;
                 }
+                ul, ol {
+                    color: white;
+                    text-align: left;
+                }
                 menu.mmenu {
                     
                     
-                    a:is(:link, :visited){
+                    a:is(:link, :visited) {
                         &:hover {
                         background-color: #663399;
                         aside{
