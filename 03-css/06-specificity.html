@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>06-Specificity</title>
     <link rel="stylesheet" href="../src/css/master.css">
+    <style>
+        /* Specificity: 0,0,2 => 2 */
+        section button {
+            border-radius: 0.2rem;
+            border: 2px solid #000;
+            width: 300px;
+            padding: 0.8rem;
+            background-color: #ccc;
+            display: block;
+            margin: 2rem auto;}
+
+        /* Specificity: 0,1,2 => 12 */
+        section button.green {
+            background-color: green;
+            color: white;
+        }
+         /* Specificity: 0,0,1 => 1 */
+         button {
+            background-color: crimson !important;
+         }
+        
+    </style>
 </head>
 <body class="css">
     <nav class="goback">
@@ -20,10 +42,11 @@
     <header class="mmenu internal">
         <h1>06-Specificity</h1>
         <img src="../src/images/logo-css.png" alt="Css">
-        <h3>Is score/rank that determines which style declaration is ultimately applied to an element.</h3>
+        <h3>Is score/rank yle declaration is ultimately applied to an element.</h3>that determines which st
     </header>
     <section>
         <h3 class="subtitle">Subtitle</h3>
+        <button class="green">Press Me</button>
     </section>
     
     
