@@ -12,7 +12,7 @@
             margin: 0;
             min-height: 100vh;
             main {
-                border: 4px solid red;
+                
                 margin: 0 auto;
                 width: 960px;
                 header {
@@ -24,8 +24,131 @@
                         width: 170px;
                     }
                 }
+                menu {
+                    margin: 2rem auto;
+                    
+                
+                a { 
+                    display: inline-block;
+                    width: 120px;
+                    height: 10px;
+                    background: rgb(31, 124, 50);
+                    color: white;
+                    margin: 0.5rem;
+                    padding: 1.2rem;
+                    border: none;
+                    border-bottom: 5px solid white;
+                    text-align: center;
+                    font-size: 1.25rem;
+                    
+                }
             }
-        }
+            div { 
+                margin: 10px auto;
+                display: flex;
+                background: rgb(31, 124, 50) 100%;
+
+                a {
+                    
+                    background: url(imgs/spriteweb.png) no-repeat;
+                    background-position:-500px -8px; 
+                    width: 270px;
+                    height: 200px;
+                    margin: 20px auto;
+                    border: 5px solid white;
+                    font-size: 1.5rem;
+                    text-align: center;
+
+                   
+                                        
+                    
+                }
+            }
+                
+               
+                article {
+                    
+                    background:  white; 
+                    border: 10px solid rgb(31, 124, 50);
+                    padding: 0.8rem;
+                    
+                    
+                        
+                        div {
+                            
+                            display: inline-block;
+                            width: 100px;
+                            height: 100px; 
+                            background: url(imgs/spriteweb.png);
+                            background-position: -200px;
+                            text-align: justify;
+
+                            &:first-child{
+                                width: 15%;
+                                background-position: -280px -510px;
+                            }
+                            &:last-child{
+                                width: 15%;
+                                background-position: -50px -215px;
+                                height: 150px;
+                                
+                            }
+
+                            &:nth-child(2) {
+                                width: 65%;
+                                background: none;
+                                
+                            }
+
+                    
+                    }
+                }
+                .pie {
+                    width: 100%;
+                    height: 200px;
+                    background-color: white;
+                    margin-bottom: 0px;
+                    .fondo1 {
+                        width: 5%;
+                        background-color: white;
+                        
+                    }
+                    .fondo2 {
+                        background: url(imgs/spriteweb.png);
+                        width: 30%;
+                        
+                        background-position: -515px -420px;
+
+                    }
+                    
+                   
+                }
+                .ultimo {
+                    background-color: white;
+                    margin-top: 0px;
+                    
+
+                    a {
+                        background-color: white;
+                        color: black;
+                        font-size: 2rem;
+                        margin-bottom: 20px;
+                        text-decoration: none;
+                    }
+                }
+            }   
+            
+                   
+
+            }
+            
+            
+            
+            
+
+            
+
+        
     </style>
 </head>
 <body>
@@ -40,7 +163,54 @@
                 <a href="">Contacto</a>
             </menu>
         </header>
+        <div>
+            <div>
+                <a href="">Sprite 01</a>
+            </div>
+            <div>
+                <a href="">Sprite 02</a>
+            </div>
+            <div>
+                <a href="">Sprite 03</a>
+            </div>
+        </div>
+        <article>
+            <div></div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque cupiditate consequuntur voluptas perferendis nisi, recusandae, quasi nihil sapiente totam sequi tempore minus molestias. Id at suscipit magni, sed ipsa recusandae consequuntur, repudiandae rem doloremque fugiat voluptatem! Non iure eveniet saepe earum omnis eius sapiente, numquam architecto officiis temporibus, nulla assumenda unde quo ex commodi ad, esse magni cupiditate ullam soluta iusto ab dicta similique! Maxime autem asperiores ad exercitationem doloribus? Quaerat optio quasi ullam hic error earum ipsum repellendus facilis voluptates aliquam voluptas ad maiores, incidunt omnis amet officiis asperiores sunt aperiam minus similique pariatur totam animi sed eos.</p>
+            </div>
+            <div></div>
+        </article>
+        <article>
+            <div></div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque cupiditate consequuntur voluptas perferendis nisi, recusandae, quasi nihil sapiente totam sequi tempore minus molestias. Id at suscipit magni, sed ipsa recusandae consequuntur, repudiandae rem doloremque fugiat voluptatem! Non iure eveniet saepe earum omnis eius sapiente, numquam architecto officiis temporibus, nulla assumenda unde quo ex commodi ad, esse magni cupiditate ullam soluta iusto ab dicta similique! Maxime autem asperiores ad exercitationem doloribus? Quaerat optio quasi ullam hic error earum ipsum repellendus facilis voluptates aliquam voluptas ad maiores, incidunt omnis amet officiis asperiores sunt aperiam minus similique pariatur totam animi sed eos.</p>
+            </div>
+            <div></div>
+        </article>
+        <article>
+            <div></div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam neque cupiditate consequuntur voluptas perferendis nisi, recusandae, quasi nihil sapiente totam sequi tempore minus molestias. Id at suscipit magni, sed ipsa recusandae consequuntur, repudiandae rem doloremque fugiat voluptatem! Non iure eveniet saepe earum omnis eius sapiente, numquam architecto officiis temporibus, nulla assumenda unde quo ex commodi ad, esse magni cupiditate ullam soluta iusto ab dicta similique! Maxime autem asperiores ad exercitationem doloribus? Quaerat optio quasi ullam hic error earum ipsum repellendus facilis voluptates aliquam voluptas ad maiores, incidunt omnis amet officiis asperiores sunt aperiam minus similique pariatur totam animi sed eos.</p>
+            </div>
+            <div></div>
+        </article>
+        
+        <footer>
+            <div class="pie">
+                <div class="fondo1"></div>
+                <div class="fondo2"></div>
+                <div class="fondo3"></div>
+        </footer> 
+            <menu class="ultimo">
+                <a href="">Inicio</a>
+                <a href="">Nosotros</a>
+                <a href="">Portafolio</a>
+                <a href="">Servicios</a>
+                <a href="">Contacto</a>
+            </menu>
     </main>
+         
     
     
 </body>
