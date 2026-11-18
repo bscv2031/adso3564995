@@ -3,11 +3,54 @@
 
 /* Styles */
 body {
-    background: linear-gradient(to top, #2a4ec7fd, #7278ac);
-    color: #fff9;
+    background: linear-gradient(to top, blue, #7278ac);
     font-family: Poppins;
     min-height: 100dvh;
-    
+    &.js{
+        background: linear-gradient(to top, #f0db4f, #0c0715);
+        background-attachment: fixed;
+        color: #f0db4faa;
+        main {
+        background: linear-gradient(to top, #f0db4f, #090202a8);
+
+           
+            header.mmenu {
+                h1 {
+                    color: #f0db4f;
+                    border-bottom: 2px solid #f0db4faa;
+                }
+                img {
+                    border: 4px solid #f0db4f;
+                  }
+                h3 {
+                    color: #f0db4f;
+                    font-weight: 300;
+                }
+                ul, ol {
+                    color: white;
+                    text-align: left;
+                }
+                       
+                menu.mmenu {
+                   
+                    
+                    
+                    a:is(:link, :visited) {
+                        &:hover {
+                        background-color: #f0db4f;
+                        aside{
+                            h4{
+                                color: #0009;
+                            }
+                        }
+                    }
+                        
+                    }
+                }
+            } 
+    }
+
+}
     &.css{
         background: linear-gradient(to top, #663399, #0c0715);
         background-attachment: fixed;
